@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xb462d986" whitehighlight="0xb462d986" coloredhighlight="0xcceec643" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xc8c5a1f8" whitehighlight="0xc8c5a1f8" coloredhighlight="0xcc5e897c" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc8ff8cc6" whitehighlight="0xc8ff8cc6" coloredhighlight="0xcc6f45b4" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc8f26a52" whitehighlight="0xc8f26a52" coloredhighlight="0xcc516363" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc8c5a1f8" whitehighlight="0xc8c5a1f8" coloredhighlight="0xcc5e897c" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff8cc6" whitehighlight="0xc8ff8cc6" coloredhighlight="0xcc6f45b4" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f26a52" whitehighlight="0xc8f26a52" coloredhighlight="0xcc516363" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc89bd5ef" whitehighlight="0xc89bd5ef" coloredhighlight="0xccd6a2ad" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ffbeab" whitehighlight="0xc8ffbeab" coloredhighlight="0xccef476f" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e8430f" whitehighlight="0xc8e8430f" coloredhighlight="0xccd4dcff" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc89bd5ef" whitehighlight="0xc89bd5ef" coloredhighlight="0xccd6a2ad" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8ffbeab" whitehighlight="0xc8ffbeab" coloredhighlight="0xccef476f" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xc8e8430f" whitehighlight="0xc8e8430f" coloredhighlight="0xccd4dcff" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xccafd134" whitehighlight="0xccafd134" coloredhighlight="0xccafd134" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xccffcd07" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xfff9ff47" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" blackcolor="0xb462d986" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xffffff32" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xff01c0ff" whitehighlight="0xff01c0ff" coloredhighlight="0xff01c0ff" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb4815cc2" whitehighlight="0xb4815cc2" coloredhighlight="0xc8fdc689" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb4815cc2" whitehighlight="0xb4815cc2" coloredhighlight="0xc8fdc689" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8d9ff3d" blackhighlight="0xdcfac36e" whitehighlight="0xdcf57c10" coloredhighlight="0xc8d9ff3d" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8e3e3e3" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8e3e3e3" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8d62525" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8d62525" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" blackcolor="0xdcbbbbbb" whitecolor="0xdcbbbbbb" coloredcolor="0xc839d437" blackhighlight="0xdcbbbbbb" whitehighlight="0xdcbbbbbb" coloredhighlight="0xc839d437" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8e6e600" blackhighlight="0xdcfac36e" whitehighlight="0xdcf57c10" coloredhighlight="0xc8e6e600" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc82c7bce" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc82c7bce" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc89526de" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc89526de" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="ESP32-S3-DEVKITC-1" library_version="8">
+<pad name="3V3" x="-11.43" y="26.67" drill="0.6" shape="long"/>
+<pad name="3.3V" x="-11.43" y="24.13" drill="0.6" shape="long"/>
+<pad name="RST" x="-11.43" y="21.59" drill="0.6" shape="long"/>
+<pad name="4" x="-11.43" y="19.05" drill="0.6" shape="long"/>
+<pad name="5" x="-11.43" y="16.51" drill="0.6" shape="long"/>
+<pad name="6" x="-11.43" y="13.97" drill="0.6" shape="long"/>
+<pad name="7" x="-11.43" y="11.43" drill="0.6" shape="long"/>
+<pad name="15" x="-11.43" y="8.89" drill="0.6" shape="long"/>
+<pad name="16" x="-11.43" y="6.35" drill="0.6" shape="long"/>
+<pad name="17" x="-11.43" y="3.81" drill="0.6" shape="long"/>
+<pad name="18" x="-11.43" y="1.27" drill="0.6" shape="long"/>
+<pad name="8" x="-11.43" y="-1.27" drill="0.6" shape="long"/>
+<pad name="3" x="-11.43" y="-3.81" drill="0.6" shape="long"/>
+<pad name="46" x="-11.43" y="-6.35" drill="0.6" shape="long"/>
+<pad name="9" x="-11.43" y="-8.89" drill="0.6" shape="long"/>
+<pad name="10" x="-11.43" y="-11.43" drill="0.6" shape="long"/>
+<pad name="11" x="-11.43" y="-13.97" drill="0.6" shape="long"/>
+<pad name="12" x="-11.43" y="-16.51" drill="0.6" shape="long"/>
+<pad name="13" x="-11.43" y="-19.05" drill="0.6" shape="long"/>
+<pad name="14" x="-11.43" y="-21.59" drill="0.6" shape="long"/>
+<pad name="5V" x="-11.43" y="-24.13" drill="0.6" shape="long"/>
+<pad name="G1" x="-11.43" y="-26.67" drill="0.6" shape="long"/>
+<pad name="G2" x="11.43" y="-26.67" drill="0.6" shape="long"/>
+<pad name="G3" x="11.43" y="-24.13" drill="0.6" shape="long"/>
+<pad name="19" x="11.43" y="-21.59" drill="0.6" shape="long"/>
+<pad name="20" x="11.43" y="-19.05" drill="0.6" shape="long"/>
+<pad name="21" x="11.43" y="-16.51" drill="0.6" shape="long"/>
+<pad name="47" x="11.43" y="-13.97" drill="0.6" shape="long"/>
+<pad name="48" x="11.43" y="-11.43" drill="0.6" shape="long"/>
+<pad name="45" x="11.43" y="-8.89" drill="0.6" shape="long"/>
+<pad name="0" x="11.43" y="-6.35" drill="0.6" shape="long"/>
+<pad name="35" x="11.43" y="-3.81" drill="0.6" shape="long"/>
+<pad name="36" x="11.43" y="-1.27" drill="0.6" shape="long"/>
+<pad name="37" x="11.43" y="1.27" drill="0.6" shape="long"/>
+<pad name="38" x="11.43" y="3.81" drill="0.6" shape="long"/>
+<pad name="39" x="11.43" y="6.35" drill="0.6" shape="long"/>
+<pad name="40" x="11.43" y="8.89" drill="0.6" shape="long"/>
+<pad name="41" x="11.43" y="11.43" drill="0.6" shape="long"/>
+<pad name="42" x="11.43" y="13.97" drill="0.6" shape="long"/>
+<pad name="2" x="11.43" y="16.51" drill="0.6" shape="long"/>
+<pad name="1" x="11.43" y="19.05" drill="0.6" shape="long"/>
+<pad name="RX" x="11.43" y="21.59" drill="0.6" shape="long"/>
+<pad name="TX" x="11.43" y="24.13" drill="0.6" shape="long"/>
+<pad name="G4" x="11.43" y="26.67" drill="0.6" shape="long"/>
+<wire x1="-12.7" y1="27.95" x2="-12.7" y2="-34.7" width="0.1524" layer="17"/>
+<wire x1="-12.7" y1="27.95" x2="12.7" y2="27.95" width="0.1524" layer="17"/>
+<wire x1="12.7" y1="27.95" x2="12.7" y2="-34.7" width="0.1524" layer="17"/>
+<wire x1="-12.7" y1="-34.7" x2="12.7" y2="-34.7" width="0.1524" layer="17"/>
+<text x="-12.69" y="28.79" size="1.778" layer="25">&gt;DevKitC-1</text>
+<text x="-12.7" y="-37.14" size="1.778" layer="27">&gt;ESP32-S3</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32-S3-DEVKITC-1" library_version="8">
+<wire x1="-12.7" y1="-30.48" x2="12.7" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="32.26" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="12.7" y2="32.26" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="32.26" x2="-12.7" y2="32.26" width="0.1524" layer="94"/>
+<pin name="G2" x="11.43" y="-22.48" length="middle" direction="pwr"/>
+<pin name="G1" x="-11.43" y="-22.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="5V" x="-11.43" y="-19.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="GPIO14" x="-11.43" y="-17.4" length="middle" rot="R180"/>
+<pin name="GPIO13" x="-11.43" y="-14.86" length="middle" rot="R180"/>
+<pin name="GPIO12" x="-11.43" y="-12.32" length="middle" rot="R180"/>
+<pin name="GPIO11" x="-11.43" y="-9.78" length="middle" rot="R180"/>
+<pin name="GPIO10" x="-11.43" y="-7.24" length="middle" rot="R180"/>
+<pin name="GPIO9" x="-11.43" y="-4.7" length="middle" rot="R180"/>
+<pin name="GPIO46" x="-11.43" y="-2.16" length="middle" rot="R180"/>
+<pin name="GPIO3" x="-11.43" y="0.38" length="middle" rot="R180"/>
+<pin name="GPIO8" x="-11.43" y="2.92" length="middle" rot="R180"/>
+<pin name="GPIO18" x="-11.43" y="5.46" length="middle" rot="R180"/>
+<pin name="GPIO17" x="-11.43" y="8" length="middle" rot="R180"/>
+<pin name="GPIO16" x="-11.43" y="10.54" length="middle" rot="R180"/>
+<pin name="GPIO15" x="-11.43" y="13.08" length="middle" rot="R180"/>
+<pin name="GPIO7" x="-11.43" y="15.62" length="middle" rot="R180"/>
+<pin name="GPIO6" x="-11.43" y="18.16" length="middle" rot="R180"/>
+<pin name="GPIO5" x="-11.43" y="20.7" length="middle" rot="R180"/>
+<pin name="GPIO4" x="-11.43" y="23.24" length="middle" rot="R180"/>
+<pin name="EN/RST" x="-11.43" y="25.78" length="middle" rot="R180"/>
+<pin name="3V3" x="-11.43" y="28.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="3.3V" x="-11.43" y="30.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="G3" x="11.43" y="-19.94" length="middle" direction="pwr"/>
+<pin name="GPIO19" x="11.43" y="-17.4" length="middle"/>
+<pin name="GPIO20" x="11.43" y="-14.86" length="middle"/>
+<pin name="GPIO21" x="11.43" y="-12.32" length="middle"/>
+<pin name="GPIO47" x="11.43" y="-9.78" length="middle"/>
+<pin name="GPIO48" x="11.43" y="-7.24" length="middle"/>
+<pin name="GPIO45" x="11.43" y="-4.7" length="middle"/>
+<pin name="GPIO0" x="11.43" y="-2.16" length="middle"/>
+<pin name="GPIO35" x="11.43" y="0.38" length="middle"/>
+<pin name="GPIO36" x="11.43" y="2.92" length="middle"/>
+<pin name="GPIO37" x="11.43" y="5.46" length="middle"/>
+<pin name="GPIO38" x="11.43" y="8" length="middle"/>
+<pin name="GPIO39" x="11.43" y="10.54" length="middle"/>
+<pin name="GPIO40" x="11.43" y="13.08" length="middle"/>
+<pin name="GPIO41" x="11.43" y="15.62" length="middle"/>
+<pin name="GPIO42" x="11.43" y="18.16" length="middle"/>
+<pin name="GPIO2" x="11.43" y="20.7" length="middle"/>
+<pin name="GPIO1" x="11.43" y="23.24" length="middle"/>
+<pin name="GPIO44" x="11.43" y="25.78" length="middle"/>
+<pin name="GPIO43" x="11.43" y="28.32" length="middle"/>
+<pin name="G4" x="11.43" y="30.86" length="middle" direction="pwr"/>
+<text x="-12.7" y="33.02" size="1.778" layer="95">&gt;DEVKITC-1</text>
+<text x="-12.7" y="-33.02" size="1.778" layer="96">&gt;ESP32-S3</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32-S3-DEVKITC-1" library_version="8">
+<gates>
+<gate name="G$1" symbol="ESP32-S3-DEVKITC-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP32-S3-DEVKITC-1">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="EN/RST" pad="RST"/>
+<connect gate="G$1" pin="G1" pad="G1"/>
+<connect gate="G$1" pin="G2" pad="G2"/>
+<connect gate="G$1" pin="G3" pad="G3"/>
+<connect gate="G$1" pin="G4" pad="G4"/>
+<connect gate="G$1" pin="GPIO0" pad="0"/>
+<connect gate="G$1" pin="GPIO1" pad="1"/>
+<connect gate="G$1" pin="GPIO10" pad="10"/>
+<connect gate="G$1" pin="GPIO11" pad="11"/>
+<connect gate="G$1" pin="GPIO12" pad="12"/>
+<connect gate="G$1" pin="GPIO13" pad="13"/>
+<connect gate="G$1" pin="GPIO14" pad="14"/>
+<connect gate="G$1" pin="GPIO15" pad="15"/>
+<connect gate="G$1" pin="GPIO16" pad="16"/>
+<connect gate="G$1" pin="GPIO17" pad="17"/>
+<connect gate="G$1" pin="GPIO18" pad="18"/>
+<connect gate="G$1" pin="GPIO19" pad="19"/>
+<connect gate="G$1" pin="GPIO2" pad="2"/>
+<connect gate="G$1" pin="GPIO20" pad="20"/>
+<connect gate="G$1" pin="GPIO21" pad="21"/>
+<connect gate="G$1" pin="GPIO3" pad="3"/>
+<connect gate="G$1" pin="GPIO35" pad="35"/>
+<connect gate="G$1" pin="GPIO36" pad="36"/>
+<connect gate="G$1" pin="GPIO37" pad="37"/>
+<connect gate="G$1" pin="GPIO38" pad="38"/>
+<connect gate="G$1" pin="GPIO39" pad="39"/>
+<connect gate="G$1" pin="GPIO4" pad="4"/>
+<connect gate="G$1" pin="GPIO40" pad="40"/>
+<connect gate="G$1" pin="GPIO41" pad="41"/>
+<connect gate="G$1" pin="GPIO42" pad="42"/>
+<connect gate="G$1" pin="GPIO43" pad="TX"/>
+<connect gate="G$1" pin="GPIO44" pad="RX"/>
+<connect gate="G$1" pin="GPIO45" pad="45"/>
+<connect gate="G$1" pin="GPIO46" pad="46"/>
+<connect gate="G$1" pin="GPIO47" pad="47"/>
+<connect gate="G$1" pin="GPIO48" pad="48"/>
+<connect gate="G$1" pin="GPIO5" pad="5"/>
+<connect gate="G$1" pin="GPIO6" pad="6"/>
+<connect gate="G$1" pin="GPIO7" pad="7"/>
+<connect gate="G$1" pin="GPIO8" pad="8"/>
+<connect gate="G$1" pin="GPIO9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
